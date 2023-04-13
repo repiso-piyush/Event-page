@@ -16,13 +16,17 @@
   <body>
     <section class="hero-section">
       <h1>The coolest React meetup with 55 tech.</h1>
-      <div></div>
-      <div class="video-container">
-        <div class="color-overlay">
-          <video autoplay loop muted>
-            <source src="./assets/tech_tunnel.mp4" type="video/mp4" />
-          </video>
+     
+        <div class="video-container">
+          <div class="color-overlay">
+            <video autoplay loop muted>
+              <source src="./assets/tech_tunnel.mp4" type="video/mp4" />
+            </video>
+          </div>
         </div>
+        
+        
+        
       </div>
     </section>
 
@@ -99,39 +103,34 @@
       </div>
     </section>
 
-   
-      <section class="buyContainer" >
-        <h2>Buy Tickets</h2>
-        <div class="container">
-          
-          <div class="ticketContainer">
-            <h3 class="mb-3">Early Bird Ticket</h3>
-            <p style="color: red; font-size: 50px">$399</p>
-            <p class="mb-1">All days entry pass for all the events.</p>
-            <button class="buy" style="background-color: #ff3400; color: white">
-              Buy(6 remaining)
-            </button>
-          </div>
-
-          <div class="passContainer">
-            <h3 class="mb-3">Workshop Pass</h3>
-            <p style="color: red; font-size: 50px">$199</p>
-            <p class="mb-1">Entry pass for each workshop.</p>
-            <button
-              class="pass mb-3"
-              style="background-color: #ff3400; color: white"
-
-            >
-              Buy(42 remaining)
-            </button>
-          </div>
+    <section class="buyContainer">
+      <h2>Buy Tickets</h2>
+      <div class="container">
+        <div class="ticketContainer">
+          <h3 class="mb-3">Early Bird Ticket</h3>
+          <p style="color: red; font-size: 50px">$399</p>
+          <p class="mb-1">All days entry pass for all the events.</p>
+          <button class="buy" style="background-color: #ff3400; color: white">
+            Buy(6 remaining)
+          </button>
         </div>
-      </section>
-    
+
+        <div class="passContainer">
+          <h3 class="mb-3">Workshop Pass</h3>
+          <p style="color: red; font-size: 50px">$199</p>
+          <p class="mb-1">Entry pass for each workshop.</p>
+          <button
+            class="pass mb-3"
+            style="background-color: #ff3400; color: white"
+          >
+            Buy(42 remaining)
+          </button>
+        </div>
+      </div>
+    </section>
 
     <section class="contact mb-10">
       <div class="flexContainer">
-
         <div class="formContainer mt-5">
           <form>
             <h2>Contact Form</h2>
@@ -140,12 +139,19 @@
               <input type="text" id="name" />
             </div>
             <div>
-              <label for="email" aria-placeholder="yours@example.com">Email*</label>
+              <label for="email" aria-placeholder="yours@example.com"
+                >Email*</label
+              >
               <input type="email" id="email" />
             </div>
             <div>
               <label for="message" aria-placeholder="John Doe">Message*</label>
-              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
             </div>
           </form>
         </div>
@@ -169,7 +175,6 @@
             labore et dolore magna <span style="color: blue">@aliqua</span>.
           </p>
         </div>
-
       </div>
     </section>
   </body>
