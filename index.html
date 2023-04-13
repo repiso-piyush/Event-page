@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event meetup</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="hero-section">
+      <h1>The coolest React meetup with 55 tech.</h1>
+      <div></div>
+      <div class="video-container">
+        <div class="color-overlay">
+          <video autoplay loop muted>
+            <source src="./assets/tech_tunnel.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="main mb-10">
+      <div class="main_content">
+        <div class="main_text">
+          <h1 class="main_title">
+            &lt;React Global&gt;
+            <br />
+            <span class="main_title--small">Online Summit 2023</span>
+          </h1>
+
+          <div class="main_cta">
+            <p class="main_date">April 12-13, 2023</p>
+
+            <div class="main_btn_wrap">
+              <button class="main_btn">GET TICKET</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="main_img_block">
+          <img
+            class="main_img"
+            src="./images/creative.eb8c45ae.png"
+            alt="statue"
+            width="600"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="features mb-10">
+      <h1 class="mb-5">Why this Event is super Cool?</h1>
+      <div class="features_block">
+        <div class="feature feature_ticket">
+          <img
+            src="./icons/confirmation_number_FILL0_wght400_GRAD0_opsz48.svg"
+            alt="ticket"
+          />
+          <h3 class="feature_heading">Buy Early Bird Tickets</h3>
+          <p>
+            Super cool discounts if you purchase early bird tickets now.Limited
+            tickets available with some awesome perks and goodies!
+          </p>
+        </div>
+
+        <div class="feature feature_speaker">
+          <div class="feature_ticket">
+            <img
+              src="./icons/campaign_FILL0_wght400_GRAD0_opsz48.svg"
+              alt="ticket"
+            />
+            <h3 class="feature_heading">Expert Speakers</h3>
+            <p>
+              Best in class expert speakers who have extensive knowledge of
+              react.All speakers are curated by the panel of experts
+            </p>
+          </div>
+        </div>
+        <div class="feature feature_globe">
+          <div class="feature_ticket">
+            <img
+              src="./icons/language_FILL0_wght400_GRAD0_opsz48.svg"
+              alt="ticket"
+            />
+            <h3 class="feature_heading">People around the Globe</h3>
+            <p>
+              Meet the people attending this event around the globe.This will be
+              the best opportunity to meet and greet people from your industry
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+      <section class="buyContainer" >
+        <h2>Buy Tickets</h2>
+        <div class="container">
+          
+          <div class="ticketContainer">
+            <h3 class="mb-3">Early Bird Ticket</h3>
+            <p style="color: red; font-size: 50px">$399</p>
+            <p class="mb-1">All days entry pass for all the events.</p>
+            <button class="buy" style="background-color: #ff3400; color: white">
+              Buy(6 remaining)
+            </button>
+          </div>
+
+          <div class="passContainer">
+            <h3 class="mb-3">Workshop Pass</h3>
+            <p style="color: red; font-size: 50px">$199</p>
+            <p class="mb-1">Entry pass for each workshop.</p>
+            <button
+              class="pass mb-3"
+              style="background-color: #ff3400; color: white"
+
+            >
+              Buy(42 remaining)
+            </button>
+          </div>
+        </div>
+      </section>
+    
+
+    <section class="contact mb-10">
+      <div class="flexContainer">
+
+        <div class="formContainer mt-5">
+          <form>
+            <h2>Contact Form</h2>
+            <div>
+              <label for="name" aria-placeholder="John Doe">Name*</label>
+              <input type="text" id="name" />
+            </div>
+            <div>
+              <label for="email" aria-placeholder="yours@example.com">Email*</label>
+              <input type="email" id="email" />
+            </div>
+            <div>
+              <label for="message" aria-placeholder="John Doe">Message*</label>
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+          </form>
+        </div>
+
+        <div class="feedContainer mt-5">
+          <h2 style="margin-bottom: 2rem">Twitter Feed</h2>
+          <p>
+            Lorem <span style="color: blue">#ipsum</span>dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna <span style="color: blue">@aliqua</span>.
+          </p>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <hr />
+          <p>
+            Lorem ipsum <span style="color: blue">#dolor</span>sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna <span style="color: blue">@aliqua</span>.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </body>
+</html>
